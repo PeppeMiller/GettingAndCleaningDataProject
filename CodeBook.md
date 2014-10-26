@@ -1,6 +1,8 @@
 # Project 1 Code Book
 ## Definition of results.txt file
 
+The data in results.txt is generated from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  This data is processed by groupping by subject, activity, and variable name.  The resulting groups ared averaged using the mean function.  The units have not been changed from the source material, details can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  The list of variable names are a subset of the original to included the mean and standard deviations columns from the source data.
+
 * Subject - Integer Factor
   * The identifier of the volunteer who generated this reading
   * Range of values from 1 to 30
