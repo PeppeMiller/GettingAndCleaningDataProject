@@ -1,7 +1,7 @@
-# Gettinng and Cleaning Data Project
-## Processing motion data from the S2
+# Getting and Cleaning Data Project
+### Processing motion data from the S2
 
-The run_analysis.R script contains all code needed to process the source file.  It assumes that https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip has been expanded and the the content files exist in the same folder as run_analysis.R.  To generate the results.txt output, run run_analysis in the folder that contains the zip contents.
+The run_analysis.R script contains all code needed to process the source file.  It assumes that https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip has been expanded and the the content files in the "UCI HAR Dataset" folder have been copied into the same folder as run_analysis.R.  To generate the results.txt output, run run_analysis in the folder that contains the contents of the zipped folder "UCI HAR Dataset".
 
 This analysis assumes that we are interested in readings that end in a mean() or std(), as the projects asks to measure the mean and standard deviation of the readings.
 
